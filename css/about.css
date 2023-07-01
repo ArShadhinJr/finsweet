@@ -1,0 +1,83 @@
+.who-inner {
+  background: #f4f5f5;
+  padding: 80px;
+}
+/* mission and vision */
+#mission-vision {
+  background: #eef4fa;
+}
+/* benefits start  */
+#benefits .benefits-top .col div {
+  background: #f4f6fc;
+}
+/* team start */
+#team {
+  background: #f4f6fc;
+}
+/* team end */
+/* brand start */
+#brands {
+  margin: 96px 0;
+}
+/* bg f4f6fc */
+.bg-light-web {
+  background: #f4f6fc !important;
+}
+/* pricing page css */
+
+#pricing-plan .card {
+  padding: 64px 48px;
+  border-radius: 12px;
+  background: #f4f6fc;
+  transition: .8s;
+}
+#pricing-plan .card .card-footer {
+   background: #f4f6fc !important;
+   transition: .8s; 
+}
+#pricing-plan .col:hover .card {
+    background: #1C1E53;
+}
+#pricing-plan .col:hover .card .card-footer {
+    background: #1C1E53 !important;
+}
+#pricing-plan .col:hover ,
+#pricing-plan .col:hover p , 
+#pricing-plan .col:hover button ,
+#pricing-plan .col:hover span , 
+#pricing-plan .col:hover h4
+ {
+    color: white !important;
+}
+#pricing-plan .col:hover .text-web{
+    color: #FCD980 !important;
+}
+#pricing-plan .col:hover .btn-web-3 {
+    background: #FCD980;
+    color: #1C1E53 !important;
+    border: #FCD980 ;
+}
+/* blog page css */
+#blog-banner p:last-child {
+text-align: center;
+width: 831px;
+line-height: 28px;
+}
+/* privacy policy page start */
+#privacy-policy .pp-heading-pera{
+    width: 562px;
+}
+#privacy-policy ul ,
+#read-more ul ,
+#about-project ul {
+  list-style: disc;
+  padding: 20px;
+}
+/* work read page start here */
+#work-banner .pera-web {
+  width: 817px;
+}
+#about-project span:hover {
+  color: #2405F2;
+}
+/* work read page end here */
