@@ -142,7 +142,6 @@ ul > li > a:hover {
  .link-web:hover .ms-3 {
   margin-left: 2rem !important;
 }
-.
 .link-dark {
   text-decoration: none;
   font-style: normal;
@@ -201,6 +200,24 @@ ul > li > a:hover {
 }
 #header .nav-link:hover {
   color: rgb(146, 137, 182) !important;
+}
+#header .navbar-toggler {
+  border: 1px solid white;
+  outline: none;
+  opacity: .8;
+
+}
+#header .navbar-toggler:hover {
+  opacity: 1;
+
+}
+#header .navbar-toggler:active {
+  scale: 0.95;
+}
+#header .navbar-toggler:focus,
+#header .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
 }
 /* banner section start */
 #banner {
