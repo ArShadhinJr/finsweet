@@ -27,7 +27,7 @@
     <!-- NAVBAR START SECTION -->
     <header id="header">
       <div class="container">
-        <nav class="navbar py-3 navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar py-3 navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html"
               ><img src="images/logo.png" alt="logo"
@@ -35,13 +35,13 @@
             <button
               class="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="fs-2 text-white"
+                ><i class="fa-solid fa-bars"></i
+              ></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
@@ -49,7 +49,7 @@
                   <a
                     class="nav-link text-white me-4"
                     aria-current="page"
-                    href="#"
+                    href="index.html"
                     >Home</a
                   >
                 </li>
@@ -57,7 +57,7 @@
                   <a
                     class="nav-link text-white me-4"
                     aria-current="page"
-                    href="#"
+                    href="about.html"
                     >About us</a
                   >
                 </li>
@@ -65,7 +65,7 @@
                   <a
                     class="nav-link text-white me-4"
                     aria-current="page"
-                    href="#"
+                    href="features.html"
                     >Features</a
                   >
                 </li>
@@ -73,7 +73,7 @@
                   <a
                     class="nav-link text-white me-4"
                     aria-current="page"
-                    href="#"
+                    href="pricing.html"
                     >Pricing</a
                   >
                 </li>
@@ -81,17 +81,99 @@
                   <a
                     class="nav-link text-white me-4"
                     aria-current="page"
-                    href="#"
+                    href="faq.html"
                     >FAQ</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="blog.html"
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="blog.html"
                     >Blog</a
                   >
                 </li>
               </ul>
-              <a href="contact.html"><button class="btn-web" type="submit">Contact Us</button></a>
+              <a href="contact.html"
+                ><button class="btn-web" type="submit">Contact Us</button></a
+              >
+            </div>
+
+            <div
+              class="offcanvas d-lg-none offcanvas-start bg-web-2"
+              data-bs-scroll="true"
+              tabindex="-1"
+              id="offcanvasWithBothOptions"
+              aria-labelledby="offcanvasWithBothOptionsLabel"
+            >
+              <div class="offcanvas-header">
+                <a class="navbar-brand mx-auto" href="index.html"
+                  ><img src="images/logo.png" alt="logo"
+                /></a>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav text-center me-4 mb-4 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white mb-3"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white mb-3"
+                      aria-current="page"
+                      href="about.html"
+                      >About us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white mb-3"
+                      aria-current="page"
+                      href="features.html"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white mb-3"
+                      aria-current="page"
+                      href="pricing.html"
+                      >Pricing</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white mb-3"
+                      aria-current="page"
+                      href="faq.html"
+                      >FAQ</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white"
+                      aria-current="page"
+                      href="blog.html"
+                      >Blog</a
+                    >
+                  </li>
+                </ul>
+                <a href="contact.html"
+                  ><button class="btn-web w-100" type="submit">
+                    Contact Us
+                  </button></a
+                >
+              </div>
             </div>
           </div>
         </nav>
@@ -102,13 +184,19 @@
       <div class="container text-center">
         <h4 class="pera-web mb-2">What we created</h4>
         <h2 class="text-2">Our Work Portfolio</h2>
-        <p class="pera-web mb-4 welcome-pera mx-auto">We help teams create great digital products by providing them with tools and technology to make the design-to-code process universally accessible.</p>
-        <p> <i class="fa fa-brands me-3 fa-facebook" aria-hidden="true"></i> 
-          <i class="fa fa-brands me-3 fa-twitter" aria-hidden="true"></i> 
-          <i class="fa fa-brands me-3 fa-instagram" aria-hidden="true"></i> 
-          <i class="fa fa-brands me-3 fa-linkedin" aria-hidden="true"></i> </p>
+        <p class="pera-web mb-4 welcome-pera mx-auto">
+          We help teams create great digital products by providing them with
+          tools and technology to make the design-to-code process universally
+          accessible.
+        </p>
+        <p>
+          <i class="fa fa-brands me-3 fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-brands me-3 fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-brands me-3 fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-brands me-3 fa-linkedin" aria-hidden="true"></i>
+        </p>
       </div>
-    </section>    
+    </section>
     <!-- portfolio SECTION START  -->
     <section id="portfolio" class="padding-web">
       <div class="container">
@@ -127,13 +215,13 @@
                 <div class="portfolio-image">
                   <img src="images/work1.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 1
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 1</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
-                <a class="link-dark text-dark " href="work-read.html"
+                <a class="link-dark text-dark" href="work-read.html"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
                 ></a>
               </div>
@@ -143,11 +231,11 @@
                 <div class="portfolio-image">
                   <img src="images/work2.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 2
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 2</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
                 <a class="link-dark text-dark" href="#"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
@@ -159,11 +247,11 @@
                 <div class="portfolio-image">
                   <img src="images/work3.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 3
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 3</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
                 <a class="link-dark text-dark" href="#"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
@@ -175,11 +263,11 @@
                 <div class="portfolio-image">
                   <img src="images/work4.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 4
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 4</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
                 <a class="link-dark text-dark" href="#"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
@@ -191,11 +279,11 @@
                 <div class="portfolio-image">
                   <img src="images/work5.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 5
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 5</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
                 <a class="link-dark text-dark" href="#"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
@@ -207,18 +295,17 @@
                 <div class="portfolio-image">
                   <img src="images/work6.png" class="card-img-top" alt="..." />
                 </div>
-                <h3 class="text-3 mb-3 mt-2">
-                  Template 6
-                </h3>
+                <h3 class="text-3 mb-3 mt-2">Template 6</h3>
                 <p class="pera-web mb-3">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
                 </p>
                 <a class="link-dark text-dark" href="#"
                   >View Portfolio<i class="fa-solid fa-arrow-right ms-3"></i
                 ></a>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
@@ -227,7 +314,10 @@
     <section id="work-contact" class="padding-web">
       <div class="container text-center">
         <h3 class="text-2 mx-auto">Let's build something great together</h3>
-        <p class="pera-web mx-auto my-4">Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies nec dolor sit amet, scelerisque cursus purus.</p>
+        <p class="pera-web mx-auto my-4">
+          Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
+          ultricies nec dolor sit amet, scelerisque cursus purus.
+        </p>
         <a href="contact.html"><button class="btn-web-2">Contact Us</button></a>
       </div>
     </section>
@@ -286,23 +376,25 @@
 
       <div class="footer-bottom">
         <div class="container">
-          <div class="row ">
+          <div class="row">
             <div class="col-lg-6">
               <p class="pera-max my-0">Copyright 2022, Finsweet.com</p>
             </div>
-            <div class="col-lg-6 ">
-              <ul class="float-end"><li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">portfolio</a></li></ul>
+            <div class="col-lg-6">
+              <ul class="float-end">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">portfolio</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    
+
     <!-- js file -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

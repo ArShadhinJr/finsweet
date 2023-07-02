@@ -8,9 +8,6 @@ ul {
   list-style: none;
   display: flex;
 }
-ul > li {
-}
-
 ul > li > a {
   text-decoration: none;
   padding-right: 32px;
@@ -137,9 +134,9 @@ ul > li > a:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  color: #2405f2;
+  color: #2405f2 !important;
 }
- .link-web:hover .ms-3 {
+.link-web:hover .ms-3 {
   margin-left: 2rem !important;
 }
 .link-dark {
@@ -148,7 +145,7 @@ ul > li > a:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .link-dark:hover {
   color: rgb(146, 137, 182) !important;
@@ -178,7 +175,7 @@ ul > li > a:hover {
 }
 .text-web-2 {
   
-  color: #282938;
+  color: #282938 !important;
 }
 .text-pointer {
   color: #97DAAD;
@@ -195,8 +192,9 @@ ul > li > a:hover {
 }
 
 /* navbar section start */
-#header {
-  background: #1c1e53;
+#header ,
+.bg-web-2 {
+  background: #1c1e53 !important;
 }
 #header .nav-link:hover {
   color: rgb(146, 137, 182) !important;
@@ -241,8 +239,6 @@ ul > li > a:hover {
 }
 
 /* projects start here */
-#projects {
-}
 #projects .projects-display {
   position: relative;
 }
