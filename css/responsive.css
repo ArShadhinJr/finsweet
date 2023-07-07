@@ -55,7 +55,7 @@ ul {
 }
 .text-2 {
   font-size: 30px;
-  line-height: 46px;
+  line-height: 32px;
 }
 .text-3 {
   font-size: 24px;
@@ -154,31 +154,27 @@ ul {
 #footer .pera-dark {
 	width: auto;
 }
-/* 
-
-
-
-
-
 .who-inner {
-	padding: 50px 60px;
+	padding: 30px 15px;
 }
 #brands {
-	margin: 40px 0;
+	margin: 30px 0;
 }
 #welcome .welcome-pera {
 	width: auto !important;
 }
-#work-banner .pera-web {
-	width: auto;
-}
-
 #work-contact .text-2 {
 	width: auto;
 }
-#blog-banner p:last-child {
+#work-contact .pera-web {
 	width: auto;
-} */
+}
+#work-banner .pera-web {
+	width: auto;
+}
+#privacy-policy .pp-heading-pera {
+	width: auto;
+}
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
