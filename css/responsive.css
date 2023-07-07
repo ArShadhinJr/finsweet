@@ -313,4 +313,10 @@
 #brands {
 	margin: 50px 0;
 }
+#work-banner .pera-web {
+	width: auto;
+}
+#blog-banner p:last-child {
+	width: auto;
+}
 }
