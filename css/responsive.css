@@ -89,7 +89,7 @@ ul {
   line-height: 20px;
 }
 #banner , #welcome , #read-more ,#blog-banner , #contact , #faq-details , #pricing-plan , #privacy-policy , #work-banner {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 #work .work-left .pera-web {
 	width: auto;
@@ -175,6 +175,21 @@ ul {
 #privacy-policy .pp-heading-pera {
 	width: auto;
 }
+#contact .pera-web {
+	width: auto;
+}
+#contact .contact-form {
+	padding: 30px 0px;
+}
+#contact input, #contact textarea {
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 10px 20px;
+	gap: 5px;
+}
+
+
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -314,6 +329,20 @@ ol, ul {
 #blog-banner p:last-child {
 	width: auto;
 }
+#contact .pera-web {
+	width: auto;
+}
+#contact .contact-form {
+	padding: 50px 30px;
+}
+#contact input, #contact textarea {
+	color: #000;
+	font-size: 15px;
+	line-height: 26px;
+	padding: 14px 24px;
+	gap: 8px;
+}
+
 
 }
 
