@@ -4,6 +4,10 @@
   padding-right: 32px;
   font-size: 13px;
 }
+ul {
+  flex-direction: column;
+  text-align: center;
+}
 .btn-web {
   padding: 10px 24px;
   font-size: 13px;
@@ -26,7 +30,7 @@
   border-radius: 28px;
 }
 .padding-web {
-  padding: 30px 0;
+  padding: 40px 0;
 }
 .pera-web {
   font-size: 13px;
@@ -46,8 +50,8 @@
   line-height: 20px;
 }
 .text-1 {
-  font-size: 30px;
-  line-height: 50px;
+	font-size: 30px;
+	line-height: 40px;
 }
 .text-2 {
   font-size: 30px;
@@ -58,17 +62,17 @@
   line-height: 38px;
 }
 .text-4 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 36px;
 }
 .text-5 {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 26px;
 
 }
 
 .link-web {
-  font-size: 13px;
+  font-size: 14px !important;
   line-height: 24px;
 }
 .link-web:hover .ms-3 ,
@@ -84,6 +88,97 @@
   font-size: 13px;
   line-height: 20px;
 }
+#banner , #welcome , #read-more ,#blog-banner , #contact , #faq-details , #pricing-plan , #privacy-policy , #work-banner {
+  padding-top: 80px;
+}
+#work .work-left .pera-web {
+	width: auto;
+}
+#work .work-item h4 {
+	left: 46%;
+}
+#projects .projects-hover-50 {
+  padding: 50px 0 76px 0;
+}
+#projects .projects-display:hover .projects-hover-50 {
+  padding: 50px 12px 76px 12px;
+  width: 100%;
+}
+#projects .projects-hover-100 {
+  padding: 40px 0 40px 0;
+}
+#projects .projects-display-2:hover .projects-hover-100 {
+  padding: 40px 26px 40px 26px;
+}
+#projects .row , .footer-middle  .row{
+	--bs-gutter-x: 0rem;
+	--bs-gutter-y: 0;
+}
+#features .features-item {
+	padding: 20px;
+}
+#faq .ps-5 {
+	padding-left: 0rem !important;
+}
+#faq .pe-5 {
+	padding-right: 1rem !important;
+}
+.accordion-button {
+	padding: 5px 5px;
+}
+#inquiry {
+  padding: 0;
+}
+#inquiry .inquiry-left {
+	padding: 40px 15px;
+}
+#inquiry .inquiry-right {
+	padding: 40px 15px;
+}
+#inquiry .inquiry-right input {
+  padding: 10px 16px;
+  margin-bottom: 8px;
+}
+#inquiry .inquiry-right input[type="text"]:focus {
+  border-bottom: 1px solid #f7c446;
+}
+#footer .footer-top {
+  padding-top: 40px;
+}
+#footer .bg-yellow {
+  padding: 14px 28px;
+}
+#footer .footer-bottom {
+  padding: 28px 0;
+}
+#footer .pera-dark {
+	width: auto;
+}
+/* 
+
+
+
+
+
+.who-inner {
+	padding: 50px 60px;
+}
+#brands {
+	margin: 40px 0;
+}
+#welcome .welcome-pera {
+	width: auto !important;
+}
+#work-banner .pera-web {
+	width: auto;
+}
+
+#work-contact .text-2 {
+	width: auto;
+}
+#blog-banner p:last-child {
+	width: auto;
+} */
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -333,14 +428,14 @@ ol, ul {
 #review .img-50 {
   width: 500px !important;
 }
+#inquiry {
+  padding: 0;
+}
 #inquiry .inquiry-left {
 	padding: 90px 70px 90px 70px;
 }
 #inquiry .inquiry-right {
 	padding: 90px 70px 90px 70px;
-}
-#inquiry {
-  padding: 0;
 }
 #footer .footer-top {
   padding-top: 80px;
