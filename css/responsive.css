@@ -95,7 +95,7 @@ ul {
 	width: auto;
 }
 #work .work-item h4 {
-	left: 46%;
+	left: 43%;
 }
 #projects .projects-hover-50 {
   padding: 50px 0 76px 0;
@@ -188,7 +188,12 @@ ul {
 	padding: 10px 20px;
 	gap: 5px;
 }
-
+#review i {
+	width: 28px;
+	height: 28px;
+	font-size: 16px;
+	line-height: 28px;
+}
 
 }
 
