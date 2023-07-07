@@ -202,7 +202,7 @@
     border-radius: 39px;
   }
   .padding-web {
-    padding: 90px 0;
+    padding: 80px 0;
   }
   .pera-web {
     font-size: 15px;
@@ -259,4 +259,52 @@
     font-size: 15px;
     line-height: 26px;
   }
+  #work .pera-web{
+    margin: 0 auto;
+  }
+  #projects .projects-hover-50 {
+  padding: 250px 0 76px 0;
+}
+#banner {
+  padding-top: 120px;
+}
+#projects .projects-display:hover .projects-hover-50 {
+  padding: 250px 35px 76px 48px;
+}
+#projects .projects-hover-100 {
+  padding: 85px 0 45px 0;
+}
+#projects .projects-display-2:hover .projects-hover-100 {
+  padding: 85px 36px 45px 56px;
+}
+
+#review .img-50 {
+  width: 500px !important;
+}
+#inquiry .inquiry-left {
+	padding: 90px 70px 90px 70px;
+}
+#inquiry .inquiry-right {
+	padding: 90px 70px 90px 70px;
+}
+#inquiry {
+  padding: 0;
+}
+#footer .footer-top {
+  padding-top: 80px;
+}
+#footer img {
+  margin-bottom: 22px;
+}
+
+#footer .pera-dark {
+  width: 400px;
+}
+#footer .bg-yellow {
+  padding: 17px 37px;
+}
+#footer .footer-bottom {
+  color: #0e0e0e !important;
+  padding: 32px 0;
+}
 }

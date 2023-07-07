@@ -150,7 +150,7 @@ ul > li > a:hover {
   color: rgb(146, 137, 182) !important;
 }
 .ms-3 {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .link-dark:hover .ms-3 {
   margin-left: 2rem !important;
@@ -355,6 +355,11 @@ ul > li > a:hover {
   border: 1.5px solid rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   margin-bottom: 16px;
+  color: white;
+}
+#inquiry .inquiry-right input::placeholder {
+  color: white;
+  opacity: .5;
 }
 #inquiry .inquiry-right input[type="text"]:focus {
   background: #1c1e53;
