@@ -87,7 +87,7 @@
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     ul > li > a {
   padding-right: 32px;
   font-size: 15px;
@@ -172,10 +172,62 @@
   font-size: 14px;
   line-height: 23px;
 }
+ol, ul {
+	padding-left: 0;
+}
+
+#banner , #welcome , #read-more ,#blog-banner , #contact , #faq-details , #pricing-plan , #privacy-policy , #work-banner {
+  padding-top: 100px;
+}
+#work .work-left .pera-web {
+	width: auto;
+}
+#projects .projects-display:hover .projects-hover-50 {
+  padding: 150px 35px 76px 48px;
+  width: 70%;
+}
+#projects .projects-hover-100 {
+  padding: 40px 0 40px 0;
+}
+#projects .projects-display-2:hover .projects-hover-100 {
+  padding: 40px 26px 40px 26px;
+}
+#inquiry {
+  padding: 0;
+}
+#footer .footer-top {
+  padding-top: 46px;
+}
+#footer .bg-yellow {
+  padding: 14px 28px;
+}
+#footer .footer-bottom {
+  padding: 28px 0;
+}
+.who-inner {
+	padding: 50px 60px;
+}
+#brands {
+	margin: 40px 0;
+}
+#welcome .welcome-pera {
+	width: auto !important;
+}
+#work-banner .pera-web {
+	width: auto;
+}
+
+#work-contact .text-2 {
+	width: auto;
+}
+#blog-banner p:last-child {
+	width: auto;
+}
+
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   ul > li > a {
     padding-right: 32px;
     font-size: 17px;
