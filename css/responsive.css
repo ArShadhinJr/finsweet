@@ -1,0 +1,262 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    ul > li > a {
+  padding-right: 32px;
+  font-size: 13px;
+}
+.btn-web {
+  padding: 10px 24px;
+  font-size: 13px;
+  line-height: 20px;
+  border: 1px solid white;
+  border-radius: 28px;
+}
+.btn-web-2 {
+  padding: 10px 24px;
+  font-size: 13px;
+  line-height: 24px;
+  border: 1px solid #fcd980;
+  border-radius: 28px;
+}
+.btn-web-3 {
+  padding: 10px 24px;
+  font-size: 13px;
+  line-height: 24px;
+  border: 1px solid #282938;
+  border-radius: 28px;
+}
+.padding-web {
+  padding: 30px 0;
+}
+.pera-web {
+  font-size: 13px;
+  line-height: 20px;
+}
+.pera-dark {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+}
+.pera-max {
+  font-size: 13px;
+  line-height: 24px;
+}
+.pera-min {
+  font-size: 10px;
+  line-height: 20px;
+}
+.text-1 {
+  font-size: 30px;
+  line-height: 50px;
+}
+.text-2 {
+  font-size: 30px;
+  line-height: 46px;
+}
+.text-3 {
+  font-size: 24px;
+  line-height: 38px;
+}
+.text-4 {
+  font-size: 22px;
+  line-height: 36px;
+}
+.text-5 {
+  font-size: 18px;
+  line-height: 26px;
+
+}
+
+.link-web {
+  font-size: 13px;
+  line-height: 24px;
+}
+.link-web:hover .ms-3 ,
+.link-dark:hover .ms-3 ,
+.link-yellow:hover .ms-3 {
+  margin-left: 1.2rem !important;
+}
+.link-dark {
+  font-size: 13px;
+  line-height: 20px;
+}
+.link-yellow {
+  font-size: 13px;
+  line-height: 20px;
+}
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    ul > li > a {
+  padding-right: 32px;
+  font-size: 15px;
+}
+.btn-web {
+  padding: 12px 32px;
+  font-size: 14px;
+  line-height: 23px;
+  border: 1px solid white;
+  border-radius: 34px;
+}
+.btn-web-2 {
+  padding: 12px 32px;
+  font-size: 15px;
+  line-height: 27px;
+  border: 1px solid #fcd980;
+  border-radius: 34px;
+}
+.btn-web-3 {
+  padding: 12px 32px;
+  font-size: 15px;
+  line-height: 27px;
+  border: 1px solid #282938;
+  border-radius: 34px;
+}
+.padding-web {
+  padding: 46px 0;
+}
+.pera-web {
+  font-size: 14px;
+  line-height: 23px;
+}
+.pera-dark {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+}
+.pera-max {
+  font-size: 15px;
+  line-height: 27px;
+}
+.pera-min {
+  font-size: 11px;
+  line-height: 23px;
+}
+.text-1 {
+  font-size: 38px;
+  line-height: 60px;
+}
+.text-2 {
+  font-size: 36px;
+  line-height: 52px;
+}
+.text-3 {
+  font-size: 28px;
+  line-height: 44px;
+}
+.text-4 {
+  font-size: 26px;
+  line-height: 40px;
+}
+.text-5 {
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.link-web {
+  font-size: 14px;
+  line-height: 27px;
+}
+.link-web:hover .ms-3 ,
+.link-dark:hover .ms-3 ,
+.link-yellow:hover .ms-3 {
+  margin-left: 1.5rem !important;
+}
+.link-dark {
+  font-size: 14px;
+  line-height: 23px;
+}
+.link-yellow {
+  font-size: 14px;
+  line-height: 23px;
+}
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  ul > li > a {
+    padding-right: 32px;
+    font-size: 17px;
+  }
+  .btn-web {
+    padding: 14px 40px;
+    font-size: 15px;
+    line-height: 26px;
+    border: 1px solid white;
+    border-radius: 39px;
+  }
+  .btn-web-2 {
+    padding: 14px 40px;
+    font-size: 17px;
+    line-height: 30px;
+    border: 1px solid #fcd980;
+    border-radius: 39px;
+  }
+  .btn-web-3 {
+    padding: 14px 40px;
+    font-size: 17px;
+    line-height: 30px;
+    border: 1px solid #282938;
+    border-radius: 39px;
+  }
+  .padding-web {
+    padding: 90px 0;
+  }
+  .pera-web {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .pera-dark {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .pera-max {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .pera-min {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .text-1 {
+    font-size: 46px;
+    line-height: 70px;
+  }
+  .text-2 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+  .text-3 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .text-4 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .text-5 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .link-web {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .link-web:hover .ms-3,
+  .link-dark:hover .ms-3,
+  .link-yellow:hover .ms-3 {
+    margin-left: 1.8rem !important;
+  }
+  .link-dark {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .link-yellow {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}

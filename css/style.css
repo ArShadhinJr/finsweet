@@ -125,7 +125,6 @@ ul > li > a:hover {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-
 }
 
 .link-web {
@@ -151,9 +150,9 @@ ul > li > a:hover {
   color: rgb(146, 137, 182) !important;
 }
 .ms-3 {
-  transition: .5s;
+  transition: 0.5s;
 }
- .link-dark:hover .ms-3 {
+.link-dark:hover .ms-3 {
   margin-left: 2rem !important;
 }
 .link-yellow {
@@ -164,7 +163,7 @@ ul > li > a:hover {
   line-height: 28px;
   color: #fcd980 !important;
 }
- .link-yellow:hover .ms-3 {
+.link-yellow:hover .ms-3 {
   margin-left: 2rem !important;
 }
 .link-yellow:hover {
@@ -174,11 +173,13 @@ ul > li > a:hover {
   color: #2405f2 !important;
 }
 .text-web-2 {
-  
+  color: #282938 !important;
+}
+.text-dark {
   color: #282938 !important;
 }
 .text-pointer {
-  color: #97DAAD;
+  color: #97daad;
 }
 
 .bg-web {
@@ -192,7 +193,7 @@ ul > li > a:hover {
 }
 
 /* navbar section start */
-#header ,
+#header,
 .bg-web-2 {
   background: #1c1e53 !important;
 }
@@ -202,12 +203,10 @@ ul > li > a:hover {
 #header .navbar-toggler {
   border: 1px solid white;
   outline: none;
-  opacity: .8;
-
+  opacity: 0.8;
 }
 #header .navbar-toggler:hover {
   opacity: 1;
-
 }
 #header .navbar-toggler:active {
   scale: 0.95;
@@ -395,14 +394,13 @@ ul > li > a:hover {
   color: #2405f2;
 }
 #portfolio .portfolio-image {
-  overflow: hidden;  
+  overflow: hidden;
 }
 #portfolio img {
-  transition: .5s;
+  transition: 0.5s;
 }
-#portfolio img:hover  {
-scale: 1.21;
-
+#portfolio img:hover {
+  scale: 1.21;
 }
 
 /* work-contact start */
